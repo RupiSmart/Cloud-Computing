@@ -1,0 +1,92 @@
+{
+    "info": {
+        "name": "RupiSmart API Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "1. Help API",
+            "item": [
+                {
+                    "name": "Get All Help",
+                    "request": {
+                        "method": "GET",
+                        "url": "http://localhost:8000/api/help"
+                    }
+                },
+                {
+                    "name": "Get Welcome Help",
+                    "request": {
+                        "method": "GET",
+                        "url": "http://localhost:8000/api/help/welcome"
+                    }
+                },
+                {
+                    "name": "Get Camera Help",
+                    "request": {
+                        "method": "GET",
+                        "url": "http://localhost:8000/api/help/camera"
+                    }
+                },
+                {
+                    "name": "Get Position Help",
+                    "request": {
+                        "method": "GET",
+                        "url": "http://localhost:8000/api/help/position"
+                    }
+                },
+                {
+                    "name": "Get Invalid Category",
+                    "request": {
+                        "method": "GET",
+                        "url": "http://localhost:8000/api/help/invalid"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "2. History API",
+            "item": [
+                {
+                    "name": "Get All History",
+                    "request": {
+                        "method": "GET",
+                        "url": "http://localhost:8000/api/history"
+                    }
+                },
+                {
+                    "name": "Add Test History",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "url": "http://localhost:8000/api/history",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"nominal\": 50000,\n    \"isReal\": true,\n    \"label\": \"Ini adalah uang Lima Puluh Ribu Rupiah asli\"\n}"
+                        }
+                    }
+                },
+                {
+                    "name": "Delete Specific History",
+                    "request": {
+                        "method": "DELETE",
+                        "url": "http://localhost:8000/api/history/123"
+                    }
+                },
+                {
+                    "name": "Clear All History",
+                    "request": {
+                        "method": "DELETE",
+                        "url": "http://localhost:8000/api/history"
+                    }
+                }
+                
+            ]
+        }
+    ]
+}
