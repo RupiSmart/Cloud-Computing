@@ -37,26 +37,5 @@ router.get('/', (req, res) => {
     }
 });
 
-// Get bantuan spesifik
-router.get('/:category', (req, res) => {
-    try {
-        const { category } = req.params;
-        const helpContent = helpTexts[category];
-
-        if (!helpContent) {
-            return res.status(404).json({
-                success: false,
-                message: 'Kategori bantuan tidak ditemukan'
-            });
-        }
-
-        res.json({
-            success: true,
-            help: helpContent
-        });
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
-});
 
 module.exports = router;
