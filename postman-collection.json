@@ -34,13 +34,6 @@
                     }
                 },
                 {
-                    "name": "Delete Specific History",
-                    "request": {
-                        "method": "DELETE",
-                        "url": "http://localhost:8000/api/history/123"
-                    }
-                },
-                {
                     "name": "Clear All History",
                     "request": {
                         "method": "DELETE",
