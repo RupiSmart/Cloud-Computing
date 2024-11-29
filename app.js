@@ -13,7 +13,7 @@ app.use(express.json());
 app.use('/api/detect', detectionRoutes);
 app.use('/api/help', helpRoutes);
 app.use('/api/history', historyRoutes);
-app.use('api/delete', historyRoutes);
+app.use('/api/history/delete', historyRoutes);
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
