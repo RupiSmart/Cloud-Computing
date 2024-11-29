@@ -25,7 +25,7 @@ router.get('/', (req, res) => {
 });
 
 // Clear all history
-router.delete('/', (req, res) => {
+router.delete('/delete', (req, res) => {
     try {
         if (histories.length === 0) {
             return res.status(404).json({
