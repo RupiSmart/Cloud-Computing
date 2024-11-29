@@ -15,27 +15,6 @@
                     }
                 },
                 {
-                    "name": "Get Welcome Help",
-                    "request": {
-                        "method": "GET",
-                        "url": "http://localhost:8000/api/help/welcome"
-                    }
-                },
-                {
-                    "name": "Get Camera Help",
-                    "request": {
-                        "method": "GET",
-                        "url": "http://localhost:8000/api/help/camera"
-                    }
-                },
-                {
-                    "name": "Get Position Help",
-                    "request": {
-                        "method": "GET",
-                        "url": "http://localhost:8000/api/help/position"
-                    }
-                },
-                {
                     "name": "Get Invalid Category",
                     "request": {
                         "method": "GET",
@@ -52,23 +31,6 @@
                     "request": {
                         "method": "GET",
                         "url": "http://localhost:8000/api/history"
-                    }
-                },
-                {
-                    "name": "Add Test History",
-                    "request": {
-                        "method": "POST",
-                        "header": [
-                            {
-                                "key": "Content-Type",
-                                "value": "application/json"
-                            }
-                        ],
-                        "url": "http://localhost:8000/api/history",
-                        "body": {
-                            "mode": "raw",
-                            "raw": "{\n    \"nominal\": 50000,\n    \"isReal\": true,\n    \"label\": \"Ini adalah uang Lima Puluh Ribu Rupiah asli\"\n}"
-                        }
                     }
                 },
                 {
