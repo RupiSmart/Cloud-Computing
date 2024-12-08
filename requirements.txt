@@ -1,0 +1,8 @@
+flask
+tensorflow
+pillow
+numpy
+gunicorn
+datetime
+google-cloud-firestore
+google-cloud-storage
