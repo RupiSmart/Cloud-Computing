@@ -3,9 +3,7 @@
 
 Cloud Computing implementation for RupiSmart application: Indonesian Currency Detection for Visually Impaired.
 
-
-
-![Google Cloud Architecture Rev4 0](https://github.com/user-attachments/assets/590a1208-a246-442f-bb03-843ca45657c5)
+In this ranch, there are code deviations that are done to deploy in cloud run or to deploy machine learning models.
 
 <h2>NOTES</h2>
 This Branch model-backend.
