@@ -17,5 +17,10 @@ Cloud Computing implementation for RupiSmart application: Indonesian Currency De
 
 ```
 git clone https://github.com/RupiSmart/Cloud-Computing.git
-git pull
+```
+
+<h2>Install Dependencies Requirements</h2>
+
+```
+npm install
 ```
