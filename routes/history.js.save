@@ -24,26 +24,6 @@ router.get('/', (req, res) => {
     }
 });
 
-// Add history (Dipanggil oleh Flask API)
-router.post('/', (req, res) => {
-    try {
-        const newHistory = {
-            id: Date.now().toString(),
-            timestamp: new Date().toISOString(),
-            ...req.body
-        };
-
-        histories.push(newHistory);
-
-        res.json({
-            success: true,
-            history: newHistory
-        });
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
-});
-
 // Clear all history
 router.delete('/clear', (req, res) => {
     try {
@@ -61,6 +41,24 @@ router.delete('/clear', (req, res) => {
             success: true,
             message: `${previousCount} riwayat deteksi berhasil dihapus`,
             deletedCount: previousCount
+        });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+router.post('/', (req, res) => {
+    try {
+        const newHistory = {
+            id: Date.now().toString(),
+            timestamp: new Date().toISOString(),
+            ...req.body
+        };
+
+        histories.push(newHistory);
+
+        res.json({
+            success: true,
+            history: newHistory
         });
     } catch (error) {
         res.status(500).json({ error: error.message });
