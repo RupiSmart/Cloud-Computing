@@ -14,3 +14,9 @@ Installation :
 ```
 git clone https://github.com/RupiSmart/Cloud-Computing.git -b model-backend
 ```
+
+<h2>Install Requirements</h2>
+
+```
+pip install requirements.txt
+```
