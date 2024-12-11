@@ -14,9 +14,10 @@ Cloud Computing implementation for RupiSmart application: Indonesian Currency De
 
 
 <h2>Installation</h2>
+This repositories have 2 Branch, this branch main
 
 ```
-git clone https://github.com/RupiSmart/Cloud-Computing.git
+git clone https://github.com/RupiSmart/Cloud-Computing.git -b main
 ```
 
 <h2>Install Dependencies Requirements</h2>
@@ -24,3 +25,4 @@ git clone https://github.com/RupiSmart/Cloud-Computing.git
 ```
 npm install
 ```
+
