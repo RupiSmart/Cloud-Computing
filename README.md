@@ -1,4 +1,10 @@
 <h1>Bangkit Capstone C242-PS049 Cloud Computing API</h1>
+
+| Name | Student ID|
+|----------|----------|
+| Muhammad Agung Faizal   | C171B4KY2695   |
+| Nurul Aini Komarudin   | C299B4KX3441   |
+
 <h2>Cloud Architecture</h2>
 
 Cloud Computing implementation for RupiSmart application: Indonesian Currency Detection for Visually Impaired.
