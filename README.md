@@ -1,5 +1,7 @@
 <h1>Bangkit Capstone C242-PS049 Cloud Computing API</h1>
 
+<h1>Name of Member Cloud Computing Team</h1>
+
 | Name | Student ID|
 |----------|----------|
 | Muhammad Agung Faizal   | C171B4KY2695   |
