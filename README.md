@@ -1,11 +1,7 @@
 <h1>Bangkit Capstone C242-PS049 Cloud Computing API</h1>
 
-<h1>Name of Member Cloud Computing Team</h1>
+![4](https://github.com/user-attachments/assets/e2de297d-efe9-4eb7-aba3-643d31f09809)
 
-| Name | Student ID|
-|----------|----------|
-| Muhammad Agung Faizal   | C171B4KY2695   |
-| Nurul Aini Komarudin   | C299B4KX3441   |
 
 <h2>Cloud Architecture</h2>
 
